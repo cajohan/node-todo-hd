@@ -1,0 +1,17 @@
+一些操作：
+yarn init -y
+yarn add commander
+yarn add inquirer
+#!/usr/bin/env node  //告诉命令行用node执行
+chmod +x cli.js   // 变成可执行文件
+改pkg
+"bin": {
+    "t": "cli.js"
+  },
+  "files": [
+    "*.js"
+  ],
+
+ctrl u 删除左边，k右边 命令行
+encode utf-8默认
+const dbPath = p.join(home, '.todo') //自动在中间加横杠
